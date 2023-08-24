@@ -3,9 +3,9 @@
 <style>
     .container {
         background-color: rgb(54, 58, 58);
-        max-width: 450px; /* Set your desired max width */
-        margin: 10 auto; /* Center the container horizontally */
-        padding: 20px; /* Add some padding for spacing */
+        max-width: 450px; 
+        margin: 10 auto; 
+        padding: 20px; 
     }
     .card {
         background-color: white;
@@ -20,7 +20,9 @@
         color: rgb(54, 58, 58);
 
     }
-    .form-control {}       
+    .form-control {
+        
+    }       
        
 </style>
 
@@ -55,7 +57,6 @@
 
                    <center> <button type="submit" class="btn btn-primary" value="submit">Submit</button></center>
                 </form>
-
               
                 
                 

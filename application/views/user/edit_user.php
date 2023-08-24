@@ -2,9 +2,9 @@
 <style>
 .container {
         background-color: rgb(54, 58, 58);
-        max-width: 450px; /* Set your desired max width */
-        margin: 10 auto; /* Center the container horizontally */
-        padding: 20px; /* Add some padding for spacing */
+        max-width: 450px; 
+        margin: 10 auto; 
+        padding: 20px; 
     }
     .card {
         background-color: white;
@@ -45,3 +45,9 @@
     </div>
 </div>
 <?php $this->load->view('includes/footer'); ?>
+<script>
+    <?php if(isset($successfulUpdate) && $successfulUpdate): ?>
+        document.getElementById('success-message').style.display = 'block';
+    <?php endif; ?>
+</script>
+
